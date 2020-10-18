@@ -1,0 +1,21 @@
+{
+  "name": "pic-time-image-downloader",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "start": "node src",
+    "build": "npm start build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.17.8",
+    "express": "^4.17.1",
+    "request": "github:request/request",
+    "typescript": "^4.0.3"
+  }
+}
